@@ -1,1 +1,3 @@
 NEXTER PROJECT SETUP
+001 Project Overview and Setup
+002 Building the Overall Layout - Part 1
