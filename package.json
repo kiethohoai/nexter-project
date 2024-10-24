@@ -1,0 +1,16 @@
+{
+  "name": "Nexter Project",
+  "version": "1.0.0",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css",
+    "sv": "live-server"
+  },
+  "author": "John",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.79.1"
+  }
+}
