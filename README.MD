@@ -7,3 +7,4 @@ NEXTER PROJECT SETUP
 006 Building the Story Section - Part 1
 007 Building the Story Section - Part 2
 008 Building the Homes Section - Part 1
+009 Building the Homes Section - Part 2
