@@ -3,3 +3,4 @@ NEXTER PROJECT SETUP
 002 Building the Overall Layout - Part 1
 003 Building the Overall Layout - Part 2
 004 Building the Features Section - Part 1
+005 Building the Features Section - Part 2
