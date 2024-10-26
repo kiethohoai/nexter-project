@@ -14,3 +14,4 @@ NEXTER PROJECT SETUP
 013 Building the Sidebar
 014 Building the Header - Part 1
 015 Building the Header - Part 2
+016 Building the Realtors Section
