@@ -10,3 +10,5 @@ NEXTER PROJECT SETUP
 009 Building the Homes Section - Part 2
 010 Building the Gallery - Part 1
 011 Building the Gallery - Part 2
+012 Building the Footer
+013 Building the Sidebar
