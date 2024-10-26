@@ -15,3 +15,4 @@ NEXTER PROJECT SETUP
 014 Building the Header - Part 1
 015 Building the Header - Part 2
 016 Building the Realtors Section
+017 Writing Media Queries - Part 1

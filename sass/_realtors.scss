@@ -10,6 +10,10 @@
   justify-items: center;
   grid-row-gap: 2rem;
 
+  @media only screen and (max-width: $lg) {
+    grid-column: 8 / -1;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;

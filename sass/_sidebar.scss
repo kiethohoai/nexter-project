@@ -5,6 +5,11 @@
 
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: $lg) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
 }
 
 .nav-button {
@@ -28,9 +33,23 @@
 
   &::before {
     transform: translateY(-1.5rem);
+
+    @media only screen and (max-width: $lg) {
+      transform: translateY(-1.2rem);
+    }
   }
 
   &::after {
     transform: translateY(1.3rem);
+
+    @media only screen and (max-width: $lg) {
+      transform: translateY(1rem);
+    }
+  }
+
+  @media only screen and (max-width: $lg) {
+    margin-top: 2.7rem;
+    margin-left: auto;
+    margin-right: 3rem;
   }
 }

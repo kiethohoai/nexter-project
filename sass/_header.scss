@@ -1,20 +1,21 @@
 .header {
   grid-column: full-start / 9;
-  background-image: linear-gradient(
-      rgba($color-secondary, 0.9),
-      rgba($color-secondary, 0.9)
-    ),
-    url(../img/hero.jpeg);
+  background-image: linear-gradient(rgba($color-secondary, 0.9), rgba($color-secondary, 0.9)), url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
 
   padding: 4rem 8rem 8rem;
 
   display: grid;
-  grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-columns: max-content;
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  // grid-template-columns: max-content;
+  grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center;
+
+  @media only screen and (max-width: $lg) {
+    grid-column: full-start / 8;
+  }
 
   &__logo {
     height: 3rem;
@@ -50,10 +51,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    align-items: center;
     gap: 3rem;
 
     img {
-      height: 2.5rem;
+      max-height: 2.5rem;
+      max-width: 100%;
       filter: brightness(70%);
     }
   }
