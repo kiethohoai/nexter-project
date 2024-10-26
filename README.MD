@@ -9,3 +9,4 @@ NEXTER PROJECT SETUP
 008 Building the Homes Section - Part 1
 009 Building the Homes Section - Part 2
 010 Building the Gallery - Part 1
+011 Building the Gallery - Part 2
