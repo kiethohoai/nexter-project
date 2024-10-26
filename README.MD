@@ -13,3 +13,4 @@ NEXTER PROJECT SETUP
 012 Building the Footer
 013 Building the Sidebar
 014 Building the Header - Part 1
+015 Building the Header - Part 2
